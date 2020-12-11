@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.contact-us,
+.sign-up,
+.marketing,
+.consulting {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.home {
+  background-image: url(https://cdn.hipwallpaper.com/i/82/6/0xuE4P.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}
+.products {
+  background-image: url(https://ridenext.co.in/img/aboutus.jpg);
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.contact-us {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5cb676314d546e3e9c59c3ef/1555531213119-2MG920V0OEEGWE2UWF1J/ke17ZwdGBToddI8pDm48kE54ipsNbGhkLL1KqEsNo5MUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2draVcNMiFjEiR1yht5CP1Gbx5rcECOn2xMAwnb-Uu_glpC969RuPXvt2ZwyzUXQf7Q/contactus.jpg?format=2500w);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+
+.marketing {
+  background-image: url(https://blog.mailrelay.com/wp-content/uploads/2018/08/problemas-de-marketing.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.consulting {
+  background-image: url(https://www.booking-wp-plugin.com/wp-content/uploads/2019/09/Online-appointment-system-for-consulting-firm.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
